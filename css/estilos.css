@@ -71,11 +71,11 @@ article{
 
 article p{
     font-size: 1.1em;
-    color: white;
 }
 
 article img{
     margin-bottom: 1.5%;
+    width: 30%;
 }
 
 article iframe{
@@ -83,7 +83,6 @@ article iframe{
 }
 
 article .titulo{
-    color: gold;
     margin-top: 5%;
     font-size: x-large;
     font-family: fantasy;
@@ -91,7 +90,6 @@ article .titulo{
 }
 
 article .subtitulo{
-    color: gold;
     font-size: large;
     font-family: verdana;
     font-weight: bold;
