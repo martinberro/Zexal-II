@@ -81,6 +81,20 @@ article iframe{
     margin-bottom: 1.5%;
 }
 
+article input{
+    margin-bottom: 2%;
+    width: 1.05em;
+}
+
+article .datos{
+    width: auto;
+    padding-left: 4%;
+}
+
+article .Send{
+    width: auto;
+}
+
 article .titulo{
     margin-top: 5%;
     font-size: x-large;
