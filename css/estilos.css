@@ -66,7 +66,6 @@ article{
     flex-direction: column;
     margin: auto;
     max-width: 1300px;
-
 }
 
 article p{
@@ -111,10 +110,12 @@ article .subtitulo{
 
 article .left{
     Display: Inline-Block;
-    width: 50%;
+    width: 70%;
 }
 
 article aside{
+    margin-top: 20%;
+    font-size: small;
     Display: Inline-Block;
-    width: 50%;
+    width: 25%;
 }
