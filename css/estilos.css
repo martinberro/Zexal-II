@@ -68,6 +68,10 @@ article{
 
 }
 
+article .personajes{
+    flex-direction: unset;
+}
+
 article p{
     font-size: 1.1em;
 }
