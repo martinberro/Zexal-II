@@ -51,6 +51,7 @@ footer{
     align-items: flex-end;
 }
 
+
 body{
     background-image: url(../images/Fondo.jpg);
     background-size: cover;
@@ -66,10 +67,6 @@ article{
     margin: auto;
     max-width: 1300px;
 
-}
-
-article .personajes{
-    flex-direction: unset;
 }
 
 article p{
