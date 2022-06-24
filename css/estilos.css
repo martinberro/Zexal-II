@@ -127,5 +127,6 @@ article aside{
 }
 
 article .Foto{
-
+    Display: Inline-Block;
+    width: 30%;
 }
