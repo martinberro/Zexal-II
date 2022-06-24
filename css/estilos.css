@@ -109,13 +109,14 @@ article .subtitulo{
 }
 
 article .left{
+    margin: auto;
     Display: Inline-Block;
     width: 70%;
 }
 
 article aside{
-    margin-top: 20%;
+    margin-top: 2%;
     font-size: small;
     Display: Inline-Block;
-    width: 25%;
+    width: 29%;
 }
