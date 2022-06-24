@@ -10,22 +10,6 @@
     text-decoration: none;
 }
 
-nav ul li a{
-    color: gold;
-    margin-top: 15%;
-    display: inline-block;
-    padding-left: 2em;
-    font-size: 1.7em;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-footer ul li a {
-    color:white;
-}
-
 header {
     padding-right: 1%;
     background-color: black;
@@ -38,10 +22,26 @@ header img {
     width: 20%;
 }
 
+nav ul li a{
+    color: gold;
+    margin-top: 15%;
+    display: inline-block;
+    padding-left: 2em;
+    font-size: 1.7em;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
 footer{
     background-color:black;
-    margin-top: auto;
+    margin-top: 10%;
     font-size: large;
+}
+
+footer ul li a {
+    color:white;
 }
 
 .fuentes {
@@ -74,14 +74,6 @@ article p{
 article img{
     margin-bottom: 1.5%;
     width: 50%;
-}
-
-#Yuma{
-    width: 62%;
-}
-
-#Nash{
-    width: 81%;
 }
 
 article iframe{
@@ -134,4 +126,20 @@ article .Foto{
     Display: Inline-Block;
     width: 30%;
     margin-left: 3%;
+}
+
+#Yuma{
+    width: 62%;
+}
+
+#Nash{
+    width: 81%;
+}
+
+#Astral{
+    width: 73%;
+}
+
+#DonThousand{
+    width: 100%;
 }
