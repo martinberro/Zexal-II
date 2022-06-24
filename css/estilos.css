@@ -80,6 +80,10 @@ article img{
     width: 62%;
 }
 
+#Nash{
+    width: 81%;
+}
+
 article iframe{
     margin-bottom: 1.5%;
 }
@@ -129,4 +133,5 @@ article aside{
 article .Foto{
     Display: Inline-Block;
     width: 30%;
+    margin-left: 3%;
 }
