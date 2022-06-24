@@ -108,15 +108,16 @@ article .subtitulo{
     font-weight: bold;
 }
 
-article .left{
-    margin: auto;
+article .Box{
+    margin-top: 2%;
+}
+
+article .right{
     Display: Inline-Block;
-    width: 70%;
+    width: 40%;
 }
 
 article aside{
-    margin-top: 2%;
-    font-size: small;
     Display: Inline-Block;
-    width: 29%;
+    width: 59%;
 }
