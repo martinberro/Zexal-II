@@ -12,9 +12,9 @@
 
 nav ul li a{
     color: gold;
-    padding-top: 10%;
+    margin-top: 15%;
     display: inline-block;
-    padding-left:2em;
+    padding-left: 2em;
     font-size: 1.7em;
 }
 
@@ -28,7 +28,6 @@ footer ul li a {
 
 header {
     padding-right: 1%;
-    padding-top: 1%;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -74,7 +73,11 @@ article p{
 
 article img{
     margin-bottom: 1.5%;
-    width: 30%;
+    width: 50%;
+}
+
+#Yuma{
+    width: 62%;
 }
 
 article iframe{
@@ -110,14 +113,19 @@ article .subtitulo{
 
 article .Box{
     margin-top: 2%;
+    margin-bottom: 11%;
 }
 
 article .right{
-    Display: Inline-Block;
     width: 40%;
+    Display: Inline-Block;
 }
 
 article aside{
-    Display: Inline-Block;
     width: 59%;
+    Display: Inline-Block;
+}
+
+article .Foto{
+
 }
