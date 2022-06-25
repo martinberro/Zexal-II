@@ -25,7 +25,7 @@ header img {
 nav ul li a{
     color: gold;
     margin-top: 15%;
-    display: inline-block;
+    display: block;
     padding-left: 2em;
     font-size: 1.7em;
 }
@@ -34,13 +34,23 @@ nav ul li {
     display: inline-block;
 }
 
+nav li ul{
+    display: none;
+    position: absolute;
+}
+
+nav li:hover > ul{
+    display: block;
+    background-color: black;
+}
+
 footer{
     background-color:black;
     margin-top: 10%;
     font-size: large;
 }
 
-footer ul li a {
+footer ul li a{
     color:white;
 }
 
@@ -148,6 +158,3 @@ article .Foto{
     margin-bottom: auto;
 }
 
-nav ul li ul a{
-    diplay: none;
-}
