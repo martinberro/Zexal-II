@@ -147,3 +147,7 @@ article .Foto{
     width: 100%;
     margin-bottom: auto;
 }
+
+nav ul li ul a{
+    diplay: none;
+}
