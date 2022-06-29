@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+p{
+    font-size: 1.1em;
+}
+
 header {
     padding-right: 1%;
     background-color: black;
@@ -66,7 +70,6 @@ footer ul li a{
     align-items: flex-end;
 }
 
-
 body{
     background-image: url(../images/Fondo.jpg);
     background-size: cover;
@@ -82,10 +85,6 @@ article{
     max-width: 1300px;
 }
 
-article p{
-    font-size: 1.1em;
-}
-
 article img{
     margin-bottom: 1.5%;
     width: 45%;
@@ -96,22 +95,9 @@ article p{
     margin: auto;
 }
 
-article iframe{
-    margin-bottom: 1.5%;
-}
-
 article input{
     margin-bottom: 2%;
     width: 1.05em;
-}
-
-article .datos{
-    width: auto;
-    padding-left: 4%;
-}
-
-article .Send{
-    width: auto;
 }
 
 article .titulo{
@@ -136,6 +122,11 @@ section {
     margin: auto;
 }
 
+section iframe{
+    margin-bottom: 1.5%;
+}
+
+
 section .Foto{
     Display: Inline-Block;
     margin-left: 3%;
@@ -149,12 +140,22 @@ section .Box{
 
 }
 
+section .datos{
+    width: auto;
+    padding-left: 4%;
+}
+
+section .Send{
+    width: auto;
+}
+
 section .right{
     width: 40%;
     Display: Inline-Block;
 }
 
 section aside{
+    margin: auto;
     width: 59%;
     Display: Inline-Block;
 }
@@ -162,21 +163,21 @@ section aside{
 
 #Yuma{
     width: 62%;
-    margin-bottom: auto;
+
 }
 
 #Nash{
     width: 81%;
-    margin-bottom: auto;
+
 }
 
 #Astral{
     width: 73%;
-    margin-bottom: auto;
+
 }
 
 #DonThousand{
     width: 100%;
-    margin-bottom: auto;
+    
 }
 
