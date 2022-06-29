@@ -81,6 +81,7 @@ body{
 article{
     display: flex;
     margin: auto;
+    flex-direction: column;
     justify-content: center;
     max-width: 1300px;
 }
@@ -118,7 +119,7 @@ article .subtitulo{
 section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
 }
 
@@ -158,6 +159,15 @@ section aside{
     margin: auto;
     width: 59%;
     Display: Inline-Block;
+}
+
+.marco{
+    border: 1px solid black;
+    margin-top: 1%;
+}
+
+.linea{
+    border-top: 1px solid black;
 }
 
 
