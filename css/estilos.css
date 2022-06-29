@@ -18,15 +18,21 @@ header {
     margin-bottom: auto;
 }
 
-header img {
+header a {
+
     width: 20%;
+
+}
+
+header img {
+    width: 50%;
 }
 
 nav ul li a{
     color: gold;
-    margin-top: 15%;
+    margin-top: 10%;
     display: block;
-    padding-left: 2em;
+    padding-left: 1em;
     font-size: 1.7em;
 }
 
@@ -73,7 +79,6 @@ article{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
     max-width: 1300px;
 }
 
@@ -84,6 +89,11 @@ article p{
 article img{
     margin-bottom: 1.5%;
     width: 45%;
+    margin: auto;
+}
+
+article p{
+    margin: auto;
 }
 
 article iframe{
@@ -109,34 +119,43 @@ article .titulo{
     font-size: x-large;
     font-family: fantasy;
     font-weight: bold;
+    margin: auto;
 }
 
 article .subtitulo{
     font-size: large;
     font-family: verdana;
     font-weight: bold;
+    margin: auto;
 }
 
-article .Box{
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+section .Foto{
+    Display: Inline-Block;
+    margin-left: 3%;
+}
+
+section .Box{
     margin-top: 2%;
-    margin-bottom: 11%;
+    margin-bottom: 6%;
 }
 
-article .right{
+section .right{
     width: 40%;
     Display: Inline-Block;
 }
 
-article aside{
+section aside{
     width: 59%;
     Display: Inline-Block;
 }
 
-article .Foto{
-    Display: Inline-Block;
-    width: 30%;
-    margin-left: 3%;
-}
 
 #Yuma{
     width: 62%;
