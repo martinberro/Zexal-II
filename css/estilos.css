@@ -12,6 +12,7 @@
 
 p{
     font-size: 1.1em;
+    margin: auto;
 }
 
 header {
@@ -84,32 +85,10 @@ article{
     max-width: 1300px;
 }
 
-article img{
-    margin-bottom: 1.5%;
-    width: 45%;
-    margin: auto;
-}
-
-article p{
-    margin: auto;
-}
-
-article input{
-    margin-bottom: 2%;
-    width: 1.05em;
-}
-
 article .titulo{
     margin-top: 5%;
     font-size: x-large;
     font-family: fantasy;
-    font-weight: bold;
-    margin: auto;
-}
-
-article .subtitulo{
-    font-size: large;
-    font-family: verdana;
     font-weight: bold;
     margin: auto;
 }
@@ -119,6 +98,24 @@ section {
     flex-direction: column;
     justify-content: center;
     margin: auto;
+}
+
+section .subtitulo{
+    font-size: large;
+    font-family: verdana;
+    font-weight: bold;
+    margin: auto;
+}
+
+section img{
+    margin-bottom: 1.5%;
+    width: 45%;
+    margin: auto;
+}
+
+section input{
+    margin-bottom: 2%;
+    width: 1.05em;
 }
 
 section iframe{
@@ -162,23 +159,19 @@ section aside{
 }
 
 .marco{
-    border: 1px solid black;
+    border: 1.5px solid black;
     margin-top: 1%;
 }
 
 .linea{
-    border-top: 1px solid black;
-}
-
-.submenu {
-
+    border-top: 1.5px solid black;
 }
 
 #Yuma{
     width: 62%;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 
 }
 
@@ -186,7 +179,7 @@ section aside{
     width: 81%;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 
 }
 
@@ -194,7 +187,7 @@ section aside{
     width: 73%;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 
 }
 
@@ -202,5 +195,44 @@ section aside{
     width: 100%;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+@media(max-width: 480px){
+
+p{
+    font-size: 1.2em;
+}
+
+
+header a {
+    width: 100%;
+}
+
+article{
+min-width: 480px;
+}
+
+section{
+    max-width: 440px;
+}        
+
+section img{
+margin-bottom: 1%;    
+width: 100%;
+}
+
+section iframe{
+    margin: auto;
+    width: 440px;
+    margin-bottom: 3%;
+}
+
+section .Foto{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
