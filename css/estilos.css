@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     list-style: none;
@@ -23,12 +22,13 @@ header {
     margin-bottom: auto;
 }
 
-header a {
-    width: 25%;
+
+header a{
+    width: 10%;
 }
 
-header img {
-    width: 50%;
+header img{
+    width: 100%;
 }
 
 nav ul li a{
@@ -209,9 +209,12 @@ p{
     font-size: 1.2em;
 }
 
+header a{
+    width: 30%;
+}
 
-header a {
-    width: 50%;
+header img {
+    width: 100%;
 }
 
 article{
@@ -263,9 +266,8 @@ article.marco{
 .icon{
     display: block;
     color: gold;
-    padding: auto;
     margin-top: 15px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 nav ul { 
