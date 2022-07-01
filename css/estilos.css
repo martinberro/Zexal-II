@@ -86,7 +86,6 @@ article{
 }
 
 article .titulo{
-    margin-top: 5%;
     font-size: x-large;
     font-family: fantasy;
     font-weight: bold;
@@ -210,7 +209,7 @@ header a {
 }
 
 article{
-min-width: 480px;
+min-width: 470px;
 }
 
 section{
@@ -233,6 +232,26 @@ section .Foto{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+section aside{
+    width: 100%;
+    display: block;
+}
+
+section .right{
+    border-top: 2px solid black;
+    width: 100%;
+    Display: Block;
+}
+
+.linea{
+    border-top: 2px solid black;
+}
+
+article.marco{
+    border: 2px solid black;
+    max-width: 470px;
 }
 
 }
