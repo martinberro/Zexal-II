@@ -231,13 +231,24 @@ article .titulo
 {
     margin-top :1%;
 }
+
+article.marco{
+    border: 2px solid black;
+    max-width: 470px;
+}
+
 section{
     max-width: 440px;
 }        
 
 section img{
-margin-bottom: 1%;    
-width: 100%;
+	margin-bottom: 1%;    
+	width: 100%;
+}
+
+section label{
+	margin-bottom: 1%;
+	display:block;
 }
 
 section iframe{
@@ -278,17 +289,13 @@ section .datos{
     border-top: 2px solid black;
 }
 
-article.marco{
-    border: 2px solid black;
-    max-width: 470px;
-}
+
 
 .icon{
     display: block;
     color: gold;
     margin-top: 15px;
     font-size: 40px;
-    position:static;
 }
 
 nav.responsive li ul{
