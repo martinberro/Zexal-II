@@ -269,6 +269,11 @@ section.subtitulo
     margin-top: 2%;
 }
 
+section .datos{
+    width: auto;
+    padding-left: 19%;
+}
+
 .linea{
     border-top: 2px solid black;
 }
