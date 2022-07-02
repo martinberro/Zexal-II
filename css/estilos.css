@@ -26,29 +26,29 @@ header {
 header a{
     width: 10%;
 }
-
-header img{
+header img
+{
     width: 100%;
 }
 
-nav ul li a{
+nav.menu ul li a{
     color: gold;
     display: block;
-    margin-top: 20%;
+    margin-top: 12%;
     padding-left: 1em;
     font-size: 1.7em;
 }
 
-nav ul li {
+nav.menu ul li {
     display: inline-block;
 }
 
-nav li ul{
+nav.menu li ul{
     display: none;
     position: absolute;
 }
 
-nav li:hover > ul{
+nav.menu li:hover > ul{
     display: block;
     background-color: black;
 }
@@ -207,6 +207,12 @@ section aside{
 
 p{
     font-size: 1.2em;
+    margin-bottom: 1%;
+}
+
+header{
+ position: sticky;
+ top: 0px;
 }
 
 header a{
@@ -221,6 +227,10 @@ article{
     min-width: 470px;
 }
 
+article .titulo
+{
+    margin-top :1%;
+}
 section{
     max-width: 440px;
 }        
@@ -254,6 +264,11 @@ section .right{
     Display: Block;
 }
 
+section.subtitulo
+{
+    margin-top: 2%;
+}
+
 .linea{
     border-top: 2px solid black;
 }
@@ -268,6 +283,17 @@ article.marco{
     color: gold;
     margin-top: 15px;
     font-size: 40px;
+    position:static;
+}
+
+nav.responsive li ul{
+    display: none;
+    position: absolute;
+}
+
+nav.responsive li:hover > ul{
+    display: block;
+    background-color: black;
 }
 
 nav ul { 
