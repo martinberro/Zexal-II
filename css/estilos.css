@@ -84,6 +84,7 @@ article{
     flex-direction: column;
     justify-content: center;
     max-width: 1300px;
+	margin-top: 3%;
 }
 
 article .titulo{
@@ -119,7 +120,8 @@ section input{
 }
 
 section iframe{
-    margin-bottom: 1.5%;
+	margin:auto;
+	margin-bottom: 3%;
 }
 
 
@@ -227,11 +229,6 @@ article{
     min-width: 470px;
 }
 
-article .titulo
-{
-    margin-top :1%;
-}
-
 article.marco{
     border: 2px solid black;
     max-width: 470px;
@@ -252,9 +249,7 @@ section label{
 }
 
 section iframe{
-    margin: auto;
     width: 440px;
-    margin-bottom: 3%;
 }
 
 section .Foto{
