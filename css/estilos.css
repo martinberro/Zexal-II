@@ -152,6 +152,7 @@ section .Send{
 section .right{
     width: 40%;
     Display: Inline-Block;
+	margin-bottom: 1%;
 }
 
 section aside{
